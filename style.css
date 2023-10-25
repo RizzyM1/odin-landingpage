@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.block1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 1200px;
+    display: flex;
+    color: #F9FAF8;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.logo {
+    display: flex;
+    align-self: center;
+    justify-content: left;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: right;
+}
