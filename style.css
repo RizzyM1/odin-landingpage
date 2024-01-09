@@ -140,3 +140,27 @@ button {
 }
 
 /* Block 3 End */
+
+/* Block 4 Start */
+
+.block4 {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.refer {
+    font-size: 20px;
+    color: #1F2937;
+    margin-top: 15px;
+}
+
+/* Block 4 End */
