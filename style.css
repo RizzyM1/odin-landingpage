@@ -67,22 +67,22 @@ a {
 
 .img1 {
     width: 550px;
-    height: ;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: grey;
 }
 
-button {
+.button1 button {
     margin-top: 30px;
     background-color: #3882F6;
     border-radius: 5px;
     width: 100px;
-    height: 30px;
+    height: 45px;
     color: white;
     border: 2px solid #3882F6;
     font-weight: 500;
+    margin-top: 35px;
 }
 
 .title1 {
@@ -164,3 +164,48 @@ button {
 }
 
 /* Block 4 End */
+
+/* Block 5 Start */
+
+.block5 {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 100px;
+    padding: 20px 145px;
+}
+
+.bold {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.small {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.button2 button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    color: white;
+    border: 2px solid white;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+/* Block 5 End */
