@@ -4,6 +4,8 @@ body {
     margin: 0;
 }
 
+/* Block 1 Start */
+
 .block1 {
     background-color: #1F2937;
     display: flex;
@@ -21,8 +23,8 @@ body {
 .logo {
     display: flex;
     align-self: center;
-    justify-content: left;
     text-align: left;
+    font-weight: 500;
 }
 
 ul {
@@ -37,3 +39,56 @@ a {
     font-size: 18px;
     text-align: right;
 }
+/* Block 1 End */
+
+/* Block 2 Start */
+
+.block2 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 1200px;
+    display: flex;
+    color: #F9FAF8;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 100px
+}
+
+.words {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img1 {
+    width: 550px;
+    height: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+button {
+    margin-top: 30px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 2px solid #3882F6;
+    font-weight: 500;
+}
+
+.title1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+/* Block 2 End */
