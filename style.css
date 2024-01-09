@@ -209,3 +209,16 @@ a {
 }
 
 /* Block 5 End */
+
+/* Block 6 (footer) start */
+
+.block6 {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+  }
+
+/* Block 6 (footer) End */
